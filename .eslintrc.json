@@ -5,7 +5,7 @@
     "es6": true,
     "jest": true
   },
-  "extends": ["airbnb-base", "plugin:jest/recommended", "prettier"],
+  "extends": ["plugin:jest/recommended", "plugin:node/recommended", "airbnb-base", "prettier"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -19,6 +19,7 @@
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "no-use-before-define": "off",
-    "import/prefer-default-export": 0
+    "import/prefer-default-export": 0,
+    "node/no-unsupported-features/es-syntax": "off"
   }
 }
