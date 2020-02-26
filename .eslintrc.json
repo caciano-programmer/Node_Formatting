@@ -17,6 +17,6 @@
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "no-use-before-define":"off",
-    "prefer-default-export": false
+    "import/prefer-default-export": 0
   }
 }
