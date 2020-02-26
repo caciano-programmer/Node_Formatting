@@ -14,11 +14,11 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["prettier"],
+  "plugins": ["jest", "prettier"],
   "rules": {
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
-    "no-use-before-define":"off",
+    "no-use-before-define": "off",
     "import/prefer-default-export": 0
   }
 }
