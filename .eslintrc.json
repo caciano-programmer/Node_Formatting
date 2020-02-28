@@ -20,6 +20,7 @@
     "no-unused-vars": "warn",
     "no-use-before-define": "off",
     "import/prefer-default-export": 0,
-    "node/no-unsupported-features/es-syntax": "off"
+    "node/no-unsupported-features/es-syntax": "off",
+    "no-plusplus":"off"
   }
 }
